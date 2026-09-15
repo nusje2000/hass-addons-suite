@@ -1,5 +1,10 @@
 ### CHANGELOG
 
+## 2026.9.1
+
+### Bug Fixes
+  - Fixed the add-on schema so `custom_collectors`, `ignore_mount_points` and `ignore_network_devices` validate as lists of strings; `list?` is not a valid Supervisor schema type and blocked installation
+
 ## 2025.11.2
 
 ### Bug Fixes
